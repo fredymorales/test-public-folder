@@ -1,2 +1,2 @@
 console.log("Hello from init.js");
-const a = 33;
+const a = 44;
