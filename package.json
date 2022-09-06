@@ -4,7 +4,7 @@
   "description": "",
   "main": "init.js",
   "scripts": {
-    "test": "echo \"OK\" && exit 0"
+    "test": "node test.js"
   },
   "keywords": [],
   "author": "",
