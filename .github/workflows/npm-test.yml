@@ -1,17 +1,13 @@
 name: NodeJS run test
 
 on:
-  push:
   pull_request:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    node-version: 16.x
 
-    strategy:
-      matrix:
-        node-version: [16.x]
-    
     steps:
     - uses: actions/checkout@v3
 
